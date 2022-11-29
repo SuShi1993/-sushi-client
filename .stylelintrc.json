@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recommended-less",
+    "stylelint-config-prettier"
+  ],
+  "customSyntax": "postcss-less",
+  "rules": {
+    "declaration-empty-line-before": null,
+    "no-descending-specificity": null,
+    "no-invalid-position-at-import-rule": null,
+    "selector-pseudo-class-no-unknown": null,
+    "selector-pseudo-element-no-unknown": null,
+    "selector-pseudo-element-colon-notation": null,
+    "function-name-case": "lower",
+    "function-no-unknown": null,
+    "selector-class-pattern": null,
+    "custom-property-pattern": null,
+    "function-url-quotes": null,
+    "keyframes-name-pattern": null,
+    "number-max-precision": 8,
+    "selector-id-pattern": null,
+    "property-no-vendor-prefix": null,
+    "declaration-block-no-redundant-longhand-properties": null,
+    "alpha-value-notation": "number",
+    "color-function-notation": "legacy",
+    "selector-not-notation": null,
+    "color-hex-length": null
+  }
+}

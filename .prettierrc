@@ -1,0 +1,27 @@
+{
+  "singleQuote": true,
+  "semi": false,
+  "trailingComma": "none",
+  "arrowParens": "avoid",
+  "printWidth": 100,
+  "tabWidth": 2,
+  "importOrder": [
+    "^react$",
+    "^react-dom$",
+    "^connected-react-router$",
+    "^react-router-dom$",
+    "^redux$",
+    "^react-redux$",
+    "^@ant-design/(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^@",
+    "^[./]"
+  ],
+  "importOrderParserPlugins": ["typescript", "jsx", "tsx", "decorators-legacy"],
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": { "parser": "json" }
+    }
+  ]
+}
