@@ -1,0 +1,10 @@
+dist/
+lib/
+esm/
+umd/
+/scripts
+/config
+/public
+*.d.ts
+.stylelintrc.json
+package.json
