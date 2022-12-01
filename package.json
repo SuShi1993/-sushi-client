@@ -4,8 +4,7 @@
   "version": "1.0.0",
   "description": "自己的一个前端笔记、Demo、小项目集合",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
-    "postinstall": "husky install"
+    "preinstall": "npx only-allow pnpm"
   },
   "keywords": [],
   "author": "苏世",
