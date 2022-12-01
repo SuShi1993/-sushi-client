@@ -16,3 +16,7 @@ pnpm add eslint eslint-config-standard eslint-webpack-plugin -D
 4. eslint-config-standard：Standard.js 代码风格规则集，史上最便捷的统一代码风格的方式
 5. eslint-plugin-react：实现对 React 代码风格检查
 6. @typescript-eslint/eslint-plugin：实现对 TypeScript 代码风格检查
+
+* webpack只需 babel-loader 就可接入babel转译
+* @babel/preset-typescript 借助babel-loader 可以完成 ts转码工作
+* Webpack 下，可以使用 eslint-webpack-plugin 接入 ESLint
