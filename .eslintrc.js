@@ -26,7 +26,7 @@ module.exports = {
   },
   rules: {
     strict: 0,
-    'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/jsx-wrap-multilines': 0,
     'react/state-in-constructor': 0,
     'react/no-array-index-key': 1,
@@ -46,6 +46,7 @@ module.exports = {
     'react/jsx-no-bind': 0,
     'react/react-in-jsx-scope': 0,
     'import/no-dynamic-require': 0,
+    '@typescript-eslint/no-var-requires': 0,
     'import/no-extraneous-dependencies': 0,
     'import/prefer-default-export': 0,
     'import/no-import-module-exports': 0,
