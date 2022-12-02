@@ -1,0 +1,26 @@
+{
+  "name": "@sushi/demo-wpk-third",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "peerDependencies": {
+    "lodash": "^4.17.21"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
