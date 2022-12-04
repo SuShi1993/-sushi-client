@@ -126,6 +126,54 @@ importers:
       webpack-cli: 5.0.0_uaydpeuxkjjcxdbyfgk36cjdxi
       webpack-dev-server: 4.11.1_5mhpyft47fxnqdave7meqiud7i
 
+  demo/webpacks/demo-wpk-mf-full/host:
+    specifiers:
+      '@babel/core': ^7.17.9
+      '@babel/preset-react': ^7.16.7
+      babel-loader: ^8.2.4
+      html-webpack-plugin: ^5.5.0
+      react: ^18.0.0
+      react-dom: ^18.0.0
+      react-router-dom: ^6.3.0
+      webpack: ^5.70.0
+      webpack-cli: ^4.9.2
+      webpack-dev-server: ^4.7.4
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-router-dom: 6.4.4_biqbaboplfbrettd7655fr4n2y
+    devDependencies:
+      '@babel/core': 7.20.5
+      '@babel/preset-react': 7.18.6_@babel+core@7.20.5
+      babel-loader: 8.3.0_ztqwsvkb6z73luspkai6ilstpu
+      html-webpack-plugin: 5.5.0_webpack@5.75.0
+      webpack: 5.75.0_webpack-cli@4.10.0
+      webpack-cli: 4.10.0_uaydpeuxkjjcxdbyfgk36cjdxi
+      webpack-dev-server: 4.11.1_pda42hcaj7d62cr262fr632kue
+
+  demo/webpacks/demo-wpk-mf-full/order:
+    specifiers:
+      '@babel/core': ^7.17.9
+      '@babel/preset-react': ^7.16.7
+      babel-loader: ^8.2.4
+      react: ^18.0.0
+      react-dom: ^18.0.0
+      react-router-dom: ^6.3.0
+      webpack: ^5.70.0
+      webpack-cli: ^4.9.2
+      webpack-dev-server: ^4.7.4
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-router-dom: 6.4.4_biqbaboplfbrettd7655fr4n2y
+    devDependencies:
+      '@babel/core': 7.20.5
+      '@babel/preset-react': 7.18.6_@babel+core@7.20.5
+      babel-loader: 8.3.0_ztqwsvkb6z73luspkai6ilstpu
+      webpack: 5.75.0_webpack-cli@4.10.0
+      webpack-cli: 4.10.0_uaydpeuxkjjcxdbyfgk36cjdxi
+      webpack-dev-server: 4.11.1_pda42hcaj7d62cr262fr632kue
+
   demo/webpacks/demo-wpk-react-ssr:
     specifiers:
       '@babel/core': ^7.18.5
@@ -1931,6 +1979,11 @@ packages:
       fastq: 1.13.0
     dev: true
 
+  /@remix-run/router/1.0.4:
+    resolution: {integrity: sha512-gTL8H5USTAKOyVA4xczzDJnC3HMssdFa3tRlwBicXynx9XfiXwneHnYQogwSKpdCkjXISrEKSTtX62rLpNEVQg==}
+    engines: {node: '>=14'}
+    dev: false
+
   /@rushstack/eslint-patch/1.2.0:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
     dev: true
@@ -2369,7 +2422,7 @@ packages:
       webpack-cli: 5.x.x
     dependencies:
       webpack: 5.75.0_webpack-cli@5.0.0
-      webpack-cli: 5.0.0_uaydpeuxkjjcxdbyfgk36cjdxi
+      webpack-cli: 5.0.0_webpack@5.75.0
     dev: true
 
   /@webpack-cli/info/1.5.0_webpack-cli@4.10.0:
@@ -2389,7 +2442,7 @@ packages:
       webpack-cli: 5.x.x
     dependencies:
       webpack: 5.75.0_webpack-cli@5.0.0
-      webpack-cli: 5.0.0_uaydpeuxkjjcxdbyfgk36cjdxi
+      webpack-cli: 5.0.0_webpack@5.75.0
     dev: true
 
   /@webpack-cli/serve/1.7.0_ud4agclah7rahur6ntojouq57y:
@@ -3279,7 +3332,7 @@ packages:
       postcss-modules-values: 4.0.0_postcss@8.4.19
       postcss-value-parser: 4.2.0
       semver: 7.3.8
-      webpack: 5.75.0_webpack-cli@4.10.0
+      webpack: 5.75.0_webpack-cli@5.0.0
     dev: true
 
   /css-select/4.3.0:
@@ -5514,7 +5567,7 @@ packages:
       webpack: ^5.0.0
     dependencies:
       schema-utils: 4.0.0
-      webpack: 5.75.0_webpack-cli@4.10.0
+      webpack: 5.75.0_webpack-cli@5.0.0
     dev: true
 
   /minimalistic-assert/1.0.1:
@@ -6126,6 +6179,29 @@ packages:
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
+
+  /react-router-dom/6.4.4_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-0Axverhw5d+4SBhLqLpzPhNkmv7gahUwlUVIOrRLGJ4/uwt30JVajVJXqv2Qr/LCwyvHhQc7YyK1Do8a9Jj7qA==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.0.4
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-router: 6.4.4_react@18.2.0
+    dev: false
+
+  /react-router/6.4.4_react@18.2.0:
+    resolution: {integrity: sha512-SA6tSrUCRfuLWeYsTJDuriRqfFIsrSvuH7SqAJHegx9ZgxadE119rU8oOX/rG5FYEthpdEaEljdjDlnBxvfr+Q==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.0.4
+      react: 18.2.0
+    dev: false
 
   /react/18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
@@ -6805,7 +6881,7 @@ packages:
     peerDependencies:
       webpack: ^5.0.0
     dependencies:
-      webpack: 5.75.0_webpack-cli@4.10.0
+      webpack: 5.75.0_webpack-cli@5.0.0
     dev: true
 
   /style-search/0.1.0:
@@ -7623,7 +7699,7 @@ packages:
       tapable: 2.2.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       watchpack: 2.4.0
-      webpack-cli: 5.0.0_uaydpeuxkjjcxdbyfgk36cjdxi
+      webpack-cli: 5.0.0_webpack@5.75.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
       - '@swc/core'
